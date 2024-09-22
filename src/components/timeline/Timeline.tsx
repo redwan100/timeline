@@ -7,7 +7,7 @@ const Timeline = () => {
   const data = timelineData || [];
   return (
     <div className="w-full">
-      <div className="space-y-8 relative">
+      <div className="space-y-12 relative">
         <img
           src={bArrowLeft}
           alt="arrow"

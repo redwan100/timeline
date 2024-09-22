@@ -7,8 +7,8 @@ const MobileView = () => {
   const topData = [...timelineData, ...timelineDataRight];
 
   return (
-    <div className="p-4 sm:hidden">
-      <div className="space-y-6 relative mb-16 w-max mx-auto">
+    <div className="p-4 sm:hidden overflow-hidden">
+      <div className="space-y-6 relative mb-16 max-w-sm w-full mx-auto">
         {topData.map((item) => (
           <div
             key={item.id}
